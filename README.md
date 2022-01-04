@@ -3,7 +3,7 @@
 Happy 2 Year Anniversary!
 
 I wanted to show you my appreciation by creating this webapp. It took me a long time to build it but it's the thought that counts! 
-Its a pretty simple app but you do need to set it up onto your own computer since I don't have money to by a web server. 
+Its a pretty simple app but you do need to set it up onto your own computer since I don't have money to buy a web server. 
 So just follow the step by step guide down below and let me know if you have any questions!
 
 <br>STEP BY STEP GUIDE</br>
