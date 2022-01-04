@@ -217,12 +217,12 @@ const questions = [
             {text: 'Trick question, you dont have a mole there', correct: false}
         ]
     },{
-        question: '',
+        question: 'A number is increased by 2 and then multiplied by 3. The result is 24. What is this number?',
         answers: [
-            {text: 'Cancer', correct: false},
-            {text: 'Leo', correct: false},
-            {text: 'Aquaris', correct: true},
-            {text: 'Libra', correct: false}
+            {text: '6', correct: true},
+            {text: '12', correct: false},
+            {text: '4', correct: false},
+            {text: '7', correct: false}
         ]
     },
 
