@@ -41,6 +41,7 @@ function showQuestion(question) {
     })
 }
 
+//once you answer the question and move on, the color of the answers goes back to default
 function resetState() {
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
@@ -48,6 +49,7 @@ function resetState() {
     }
 }
 
+//questions are random and once you run out, the restart buttons shows, selecting a button and then it hides
 function selectAnswer(e) {
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
@@ -64,6 +66,7 @@ function selectAnswer(e) {
     nextButton.classList.remove('hide')
 }
 
+//if you pick an answer and its true then the color turns green, if false then red
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
@@ -73,6 +76,7 @@ function setStatusClass(element, correct) {
     } 
 }
 
+//once you answer the question and move on, the color of the answers goes back to default
 function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
@@ -158,14 +162,7 @@ const questions = [
             {text: 'All of the above', correct: true}
         ]
     },{
-        question: 'Do you have anything planned for 2022 that involves us?',
-        answers: [
-            {text: 'Yes', correct: true},
-            {text: 'No', correct: false},
-            {text: 'Im working on it', correct: false},
-        ]
-    },{
-        question: 'Are looking forward to an amazing year?',
+        question: 'Are you looking forward to an amazing year?',
         answers: [
             {text: 'Yes', correct: true},
             {text: 'No', correct: false}
@@ -181,7 +178,7 @@ const questions = [
     },{
         question: 'How did I get the scar on my face?',
         answers: [
-            {text: 'I got hit int he face with a football', correct: false},
+            {text: 'I got hit in the face with a football', correct: false},
             {text: 'I got hit in the face with a basketball', correct: true},
             {text: 'I got hit in the face with a frisbee', correct: false},
             {text: 'I got hit in the face with a volleyball', correct: false}
@@ -224,6 +221,23 @@ const questions = [
             {text: '4', correct: false},
             {text: '7', correct: false}
         ]
-    },
+    },{
+        question: 'Who was the first player in NBA history to make 400 three-pointers in a season?',
+        answers: [
+            {test: 'Stephen Curry', correct: true},
+            {test: 'Trae Young', correct: false},
+            {test: 'Laterell Sprewell', correct: false},
+            {test: 'Klay Thompson', correct: false}
+        ]
+    },{
+        question: 'Who was the first player in NBA history to make 400 three-pointers in a season?',
+        answers: [
+            {test: 'Stephen Curry', correct: true},
+            {test: 'Trae Young', correct: false},
+            {test: 'Laterell Sprewell', correct: false},
+            {test: 'Klay Thompson', correct: false}
+        ]
+    }
+
 
 ]
