@@ -230,14 +230,106 @@ const questions = [
             {test: 'Klay Thompson', correct: false}
         ]
     },{
-        question: 'Who was the first player in NBA history to make 400 three-pointers in a season?',
+        question: 'When is our anniversary?',
         answers: [
-            {test: 'Stephen Curry', correct: true},
-            {test: 'Trae Young', correct: false},
-            {test: 'Laterell Sprewell', correct: false},
-            {test: 'Klay Thompson', correct: false}
+            {test: 'Jan. 28', correct: false},
+            {test: 'Jan. 29', correct: true},
+            {test: 'Jan. 30', correct: false},
+            {test: 'Trick question, it changes depending on our schedule', correct: false}
         ]
-    }
+    },{
+        question: 'What is my favorite quirk that you do?',
+        answers: [
+            {test: 'Pretending to shoot a basketball', correct: false},
+            {test: 'Elevator music', correct: false},
+            {test: 'Pointing with middle finger', correct: false},
+            {test: 'Leg wiggles', correct: true}
+        ]
+    },{
+        question: 'What was I wearing when we first met?',
+        answers: [
+            {test: 'Denim jacket and sweatpants', correct: false},
+            {test: 'Blue sweater and biker shorts', correct: true},
+            {test: 'Nike hoodie and leggings', correct: false},
+            {test: 'Black windbreaker and leggings', correct: false}
+        ]
+    },{
+        question: 'What is my preferred fashion style?',
+        answers: [
+            {test: 'Comfy, streetwear', correct: false},
+            {test: 'Preppy, cute', correct: false},
+            {test: 'Edgy, classy', correct: true},
+            {test: 'Punky, goth', correct: false}
+        ]
+    },{
+        question: 'What is the correct order of my love language?', 
+        answers: [
+            {test: 'Words of affirmation, Acts of service, Quality time', correct: false},
+            {test: 'Acts of service, recieving gifts, Physical touch', correct: false},
+            {test: 'Recieving gifts, Quality time, Words of affirmation', correct: false},
+            {test: 'Quality time, Words of affirmation, Physical touch', correct: true},
+            {test: 'Physical touch, Quality time, Words of affirmation', correct: false},
+            {test: 'None of the above'}
+        ]
+    },{
+        question: 'What is my Myer Briggs personality type? (You may use google for this one)', 
+        answers: [
+            {test: 'INTJ', correct: false},
+            {test: 'ENTJ', correct: false},
+            {test: 'ENFJ', correct: false},
+            {test: 'INFJ', correct: true}
+        ]
+    },{
+        question: 'What are my top 3 favorite holidays?', 
+        answers: [
+            {test: 'Christmas, Halloween, Valentines Day', correct: false},
+            {test: 'New Years, Thanksgiving, Christmas', correct: false},
+            {test: 'Valentines day, New Years, Halloween', correct: false},
+            {test: 'Halloween, Christmas, Valentines Day', correct: true}
+        ]
+    },{
+        question: 'What is my favorite Harry Potter Movie?', 
+        answers: [
+            {test: 'Deathly Hallows', correct: false},
+            {test: 'Half Blood Prince', correct: false},
+            {test: 'Goblet of Fire', correct: true},
+            {test: 'Chamber of Secrets', correct: false}
+        ]
+    },{
+        question: 'Who do I prefer to play on League atm?', 
+        answers: [
+            {test: 'Miss Fortune', correct: false},
+            {test: 'Jinx', correct: false},
+            {test: 'Viegar', correct: false},
+            {test: 'Thresh', correct: false},
+            {test: 'Kha Zix', correct: true},
+            {test: 'None of the above', correct: false}
+        ]
+    },{
+        question: 'Who is my favorite Youtuber?', 
+        answers: [
+            {test: 'Jacksepticeye', correct: false},
+            {test: 'Markiplier', correct: false},
+            {test: 'Pewdiepie', correct: true},
+            {test: 'IAMKARENO', correct: false}
+        ]
+    },{
+        question: 'What type of date do you think I would enjoy the most?', 
+        answers: [
+            {test: 'Museum hopping', correct: true},
+            {test: 'Pinic at a park', correct: false},
+            {test: 'Stay home and chill', correct: false},
+            {test: 'Long walks on short beaches', correct: false}
+        ]
+    },{
+        question: 'What GRAND gesture do you think I would enjoy the most', 
+        answers: [
+            {test: 'Decorating a room with flowers and candles, romantic music playing, cute fits and great food', correct: false},
+            {test: 'Plan trip to another city, state or country', correct: false},
+            {test: 'Plan date to dance the night away in cute fits', correct: false},
+            {test: 'All of the above', correct: true}
+        ]
+    },
 
 
 ]
